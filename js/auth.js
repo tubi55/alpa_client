@@ -29,7 +29,7 @@ async function checkLogin() {
     document.querySelector(".logged-in").style.display = "flex";
     document.querySelectorAll(
       "li"
-    )[3].innerText = `${result.uname}님 반갑습니다.`;
+    )[4].innerText = `${result.uname}님 반갑습니다.`;
   } else {
     document.querySelector(".logged-out").style.display = "flex";
     document.querySelector(".logged-in").style.display = "none";
