@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Edit Form</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="components/header.js"></script>
+  <script type="module" src="components/footer.js"></script>
+  <script type="module" src="js/edit.js"></script>
+  <script type="module" src="js/auth.js"></script>
+</head>
+
+<body>
+
+  <my-header></my-header>
+
+  <main>
+    <h1>Edit User</h1>
+    <form id="edit">
+      <input type="hidden" name="id" /><br />
+      <label>Name</label> <input type="text" name="uname" id="uname" /><br />
+      <label>Email</label> <input type="email" name="email" id="email" /><br />
+
+      <h3>Favorait Color</h3>
+      <label>red</label><input type="radio" name="colors" value="red">
+      <label>green</label><input type="radio" name="colors" value="green">
+      <label>blue</label><input type="radio" name="colors" value="blue">
+
+      <button type="submit">Send</button>
+    </form>
+  </main>
+
+  <my-footer></my-footer>
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>login</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="components/header.js"></script>
+  <script type="module" src="components/footer.js"></script>
+  <script type="module" src="js/login.js"></script>
+  <script type="module" src="js/auth.js"></script>
+</head>
+
+<body>
+
+  <my-header></my-header>
+
+  <main>
+    <h1>Login</h1>
+    <form id="loginForm">
+      <p>
+        <label for="uname">User Name</label><input type="text" id="uname" name="uname">
+      </p>
+      <p>
+        <label for="email">E-mail</label><input type="text" id="email" name="email">
+      </p>
+      <p>
+        <input type="reset" value="cancel">
+        <input type="submit" value="submit">
+      </p>
+    </form>
+  </main>
+
+  <my-footer></my-footer>
+
+</body>
+
+</html>

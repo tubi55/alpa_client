@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #777;
+}
+
+header {
+  width: 80%;
+  height: 80px;
+  margin: 0px auto;
+  border-bottom: 1px solid #888;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav {
+  display: flex;
+  gap: 40px;
+}
+header nav ul {
+  display: flex;
+  gap: 40px;
+}
+
+main {
+  padding: 5vh 10vw;
+  min-height: 60vh;
+}
+
+footer {
+  width: 80%;
+  padding: 50px 0px;
+  margin: 0px auto;
+  border-top: 1px solid #888;
+}
+
+/*# sourceMappingURL=style.css.map */
