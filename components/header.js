@@ -6,6 +6,7 @@ class MyHeader extends HTMLElement {
 
         <nav>
           <ul class="logged-in">
+            <li><a href="board_list.html">Board</a></li>
             <li><a href="admin.html">Admin</a></li>
             <li><a href="chart.html">Chart</a></li>
             <li><a href="#" class="btnOut">Logout</a></li>   
